@@ -8,4 +8,4 @@ This project is a starting point for a Flutter application.
 
 The app looks like this:
 
-<img src ='img/app.png' width='30%' height='30%'>
+<img src ='img/app.png' width='25%' height='25%'>
