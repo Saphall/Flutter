@@ -4,12 +4,16 @@ Basics of Dart with Flutter App Development.
 Important links:
 
 1. <a href='https://dart.dev/guides'>Dart Documentation</a>
-
 Practice and Run Dart here: <a href='https://dartpad.dev/?'>DartPad</a>
+
 2. <a href ='https://flutter.dev/docs'>Flutter Documentation</a>
 
-![Alt Text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mobileappdaily.com%2Fwhy-dart-is-used-in-flutter&psig=AOvVaw0qj7ofmXHOPNX6omw6xc19&ust=1612329204376000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNj6s8G4yu4CFQAAAAAdAAAAABBV)
+<img src='https://i.morioh.com/2019/11/13/109db3f2d64a.jpg' width=50%>
 
 Repos:
 
 Flutter: https://github.com/flutter/flutter
+
+Learn from <a href='https://www.youtube.com/flutterdev'>Flutter Youtube Channel</a> and <a href='https://www.youtube.com/c/FlutterCommunityVideos'>Flutter Community Youtube Channel</a> 
+
+#30DayOfFlutter
