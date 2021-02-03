@@ -16,6 +16,6 @@ Flutter: https://github.com/flutter/flutter
 
 <hr>
 
-Learn from <a href='https://www.youtube.com/flutterdev'>Flutter Youtube Channel</a> and <a href='https://www.youtube.com/c/FlutterCommunityVideos'>Flutter Community Youtube Channel</a> 
+Learn from <a href='https://www.youtube.com/flutterdev'>Flutter Youtube Channel</a> and <a href='https://www.youtube.com/c/FlutterCommunityVideos'>Flutter Community Youtube Channel.</a> 
 
 <hr>
