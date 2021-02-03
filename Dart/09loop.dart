@@ -27,5 +27,5 @@ void main(){
 
 }
 
-// break to terminate loop
-// continue to contine loop without further actions in the loop
+// break : to terminate loop
+// continue : to contine loop without further actions in the loop
