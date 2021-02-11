@@ -13,7 +13,9 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ),
-      body: Center(child: Icon(Icons.airport_shuttle, color: Colors.lightBlue)),
+      body: Center(
+        child: Text('Hello'),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text('click'),
@@ -21,3 +23,4 @@ class Home extends StatelessWidget {
     );
   }
 }
+

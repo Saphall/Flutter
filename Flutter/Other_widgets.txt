@@ -1,0 +1,96 @@
+---Everything in flutter is widget-----
+     Stateful widget => Widget can change overtime.
+     Stateless widget => Widget cannot change state overtime.
+
+* Dive into app development now. Some other widgets to know at beginning :-
+
+1. Images :-
+//AssetImage or Image.Network/Image.asset()
+
+      body: Center(
+          child: Image(
+         	 image: NetworkImage(
+            	'https://image.com'), 
+      )),
+----------------------
+      
+2. Buttons and Icons :-
+//Icons
+	body: Center(
+          child: Icon(
+        	Icons.airport_shuttle,
+        	color: Colors.lightBlue,
+        	size: 50.0,
+      )),
+
+//Buttons
+	child: RaisedButton_icon(      //RaisedButton, FlatButton, IconButton etc.
+	 	onPressed: () {},
+		icon: Icon( Icons.mail),
+		label: Text('Mail me'),
+		color: Colors.amber,
+		)     
+------------------------
+      
+3. Containers and padding :-
+//conatiners restrics itself according to child
+	body: Container(
+		color: Colors.grey[400],
+		child: Text('hello'),
+		padding: EdgeInsets.all(20),    //EdgeInsets.symmetric, fromLTRB etc.
+		margin: EdgeInsets.all(20),
+		)
+	
+//similarly padding
+		body: Padding(
+			padding: EdgeInsets.all(30.0),
+			child: Text( 'hello'),
+			)
+-------------------------
+
+4. Rows :-
+// contains many child so, children is written
+	 body: Row(
+	 //main-axis is horizontal and cross-axis: vertical
+	 	mainAxisAlignment: MainAxisAlignment.center,   //.spaceEvenly etc.   
+	 	crossAxisAlignment: CrossAxisAlignment.stretch,  // .start, .end etc.
+	 	children: <widget> [
+	 		Text('hello'),
+	 		FlatButton(
+	 			onPressed:(){},
+	 			child: Text('click')),
+	 		Container(
+	 			color:Colors.cyan,
+	 			padding: EdgeInsets.all(20),
+	 			child: Text('Hello Inside')),
+	 			]
+----------------------------
+
+5.Columns :-
+// contains many child so, children is written
+	 body: Column(
+	 //main-axis is vertical and cross-axis: horizontal
+	 	mainAxisAlignment: MainAxisAlignment.center,   //.spaceEvenly etc.   
+	 	crossAxisAlignment: CrossAxisAlignment.stretch,  // .start, .end etc.
+	 	children: <widget> [
+	 		Container(
+	 			color:Colors.cyan,
+	 			padding: EdgeInsets.all(20),
+	 			child: Text('Hello Inside')),
+	 		Container(...),
+	 		Container(..),
+	 			]
+-----------------------
+
+6. Expanded :-
+//expands to fit in
+	body: Row(
+		Expanded(
+			child: Container(..),
+			),
+		Expanded(...),
+		Expanded(...),
+	)
+----------------------
+
+Now, dive into app development and learn along the way.		
