@@ -1,6 +1,6 @@
 # world_time
 
-App to display world time using 'World Time API'.
+App to display world-time using 'World Time API'.
 
 <p float="left">
   <img src="assets/img/app1.png" width="25%" height='26%' />
