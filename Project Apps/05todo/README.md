@@ -1,5 +1,6 @@
 # todo
-A TODO App with linked sqflite database.
+
+A 'TODO App' with sqflite database.
 
 <p>
   <img src='img/app1.png' width = '23%' height = '24%'>
