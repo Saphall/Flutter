@@ -1,5 +1,5 @@
 # Flutter
-### Basics of Dart with Flutter App Development.
+### Basics of Dart and Flutter App Development.
 
 ### Important links:
 
