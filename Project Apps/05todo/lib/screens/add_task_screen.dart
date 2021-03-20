@@ -68,7 +68,7 @@ class _AddTaskSreenState extends State<AddTaskSreen> {
 
   @override
   void initState() {
-    // TODO: implement initState
+    // implement initState
     super.initState();
 
     if (widget.task != null) {
@@ -81,7 +81,7 @@ class _AddTaskSreenState extends State<AddTaskSreen> {
 
   @override
   void dispose() {
-    // TODO: implement dispose
+    // implement dispose
     _dateController.dispose();
     super.dispose();
   }
@@ -203,7 +203,7 @@ class _AddTaskSreenState extends State<AddTaskSreen> {
                         decoration: BoxDecoration(
                             color: Theme.of(context).primaryColor,
                             borderRadius: BorderRadius.circular(30)),
-                        child: FlatButton(
+                        child: TextButton(
                           onPressed: _submit,
                           child: Text(
                             widget.task == null ? "Add" : 'Update',
@@ -223,7 +223,7 @@ class _AddTaskSreenState extends State<AddTaskSreen> {
                               decoration: BoxDecoration(
                                   color: Theme.of(context).primaryColor,
                                   borderRadius: BorderRadius.circular(30)),
-                              child: FlatButton(
+                              child: TextButton(
                                 onPressed: _delete,
                                 child: Text(
                                   'Delete',
